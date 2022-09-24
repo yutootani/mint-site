@@ -1,5 +1,85 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+background: linear-gradient(rgba(0, 209, 255, .7), rgba(210, 27, 226, .7)) fixed,
+url(img/bg_mirako.png);
+background-size: cover;
+font-family: 'Inter', sans-serif;
+}
+
+.c-site-logo {
+    text-align: center;
+    padding: 100px 0 40px;
+}
+
+.c-site-logo__img {
+    max-width: 500px;
+}
 
 .c-site-odernum {
-    color: blue;
+    color: #fff;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.c-site-common-box {
+    width: 800px;
+    height: 300px;
+    background-color:rgba(0,0,0,.5);
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    color: #fff;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .1);
+}
+
+.c-site-common-box__lead {
+    font-size: 36px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.c-site-common-box__btn {
+    text-decoration:none;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 82px;
+    background-color: #2081E2;
+    border-radius: 16px;
+    border-bottom: 5px solid #1864B0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.c-site-common-box__btn:hover {
+    color: #fff;
+    background: #2391FF;
+    border-bottom: 5px solid #1864B0;
+  }
+
+.c-site-common-box__btn::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-top: solid 2px #fff;
+    border-right: solid 2px #fff;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    transform: rotate(45deg);
+  }
+
+.btn__icon {
+    width: 48px;
+}
+
+.btn__ttl {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 16.5px;
 }

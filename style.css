@@ -136,7 +136,6 @@ url(img/bg_mirako.png);
 
 .c-site-mint__minus:hover {
 	top:4px;
-	transition:0.3s;
 }
 
 .c-site-mint__plus {
@@ -147,5 +146,4 @@ url(img/bg_mirako.png);
 
 .c-site-mint__plus:hover {
 	top:4px;
-	transition:0.3s;
 }

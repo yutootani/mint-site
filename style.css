@@ -128,48 +128,24 @@ url(img/bg_mirako.png);
     margin: 20px;
 }
 
-.op_plus {
-    display: inline-block;
-    position: relative;
-    width: 18px;
-    height: 18px;
-    margin: 0 5px;
-    border: 2px solid #fff;
-    border-radius: 50px;
-  }
+.c-site-mint__minus {
+    cursor: pointer;
+    position:relative;
+	top:0;
+}
 
-  .op_plus:before, .op_plus:after {
-    display: block;
-    content: '';
-    background-color: #fff;
-    position: absolute;
-    width: 18px;
-    height: 4px;
-    top: 36px;
-    left: 280px;
-  }
+.c-site-mint__minus:hover {
+	top:4px;
+	transition:0.3s;
+}
 
-  .op_plus:before {
-    width: 4px;
-    height: 18px;
-    top: 29px;
-    left: 287px;
-  }
+.c-site-mint__plus {
+    cursor: pointer;
+    position:relative;
+	top:0;
+}
 
-  .op_minus {
-    display: inline-block;
-    position: relative;
-    width: 18px;
-    height: 18px;
-    margin: 0 5px;
-  }
-  .op_minus:after {
-    display: block;
-    content: '';
-    background-color: #fff;
-    position: absolute;
-    width: 18px;
-    height: 4px;
-    top: 7px;
-    left: 0;
-  }
+.c-site-mint__plus:hover {
+	top:4px;
+	transition:0.3s;
+}
